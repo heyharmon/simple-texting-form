@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+    <html lang="en">
+      <head>
+        <meta charset="UTF-8" />
+        <title>Join Text Messaging List</title>
+        <!-- <link href="https://app2.simpletexting.com/join-web-form/style-new.css" rel="stylesheet" type="text/css" /> -->
+        <link rel="stylesheet" href="simpletexting.css">
+        <style>
+            body {
+                margin: 0;
+                padding: 0;
+                height: 100%;
+                font-size: 14px;
+                line-height: 14px;
+                font-family: Arial, sans-serif;
+                color: var(--st-text-primary);
+            }
+        </style>
+      </head>
+    
+      <body>
+        <script src="simpletexting.js"></script>
+
+        <div class="st-signupform">
+          <form id="st-join-web-form-65495f3d75d75166e5edfbfa" class="st-signupform-content" action="https://app2.simpletexting.com/join/joinContact" method="POST">
+            <div class="step1-form">
+                <div class="required">
+                    <label class="st-signupform__label" for="phone">Phone <span class="required-mark"><svg width="10" height="10" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M3.84534 5.66669H1.00004C0.631851 5.66669 0.333374 5.36821 0.333374 5.00002C0.333374 4.63183 0.631851 4.33335 1.00004 4.33335H3.84534L2.42269 1.86925C2.2386 1.55039 2.34785 1.14266 2.66671 0.958568C2.98557 0.774473 3.3933 0.883724 3.57739 1.20259L5.00004 3.66669L6.42269 1.20259C6.60679 0.883724 7.01451 0.774473 7.33337 0.958568C7.65224 1.14266 7.76149 1.55039 7.57739 1.86925L6.15474 4.33335H9.00004C9.36823 4.33335 9.66671 4.63183 9.66671 5.00002C9.66671 5.36821 9.36823 5.66669 9.00004 5.66669H6.15474L7.57739 8.13079C7.76149 8.44965 7.65224 8.85738 7.33337 9.04147C7.01451 9.22557 6.60679 9.11632 6.42269 8.79745L5.00004 6.33335L3.57739 8.79745C3.3933 9.11632 2.98557 9.22557 2.66671 9.04147C2.34785 8.85738 2.2386 8.44965 2.42269 8.13079L3.84534 5.66669Z" fill="#E63655"/></svg></span></label>
+                    <input id="phone" name="phone" type="text" placeholder="(XXX) XXX-XXXX" maxlength="1600" data-type="phone"/>
+                </div>
+                <div id="js-error-phone" class="st-error-message"></div>
+                <div class="st-terms-and-conditions">
+                    <div class="st-checkbox terms-checkbox">
+                    <input id="terms-agreed-checkbox-65495f3d75d75166e5edfbfa" type="checkbox" name="terms-agreed" />
+                    <label class="st-terms-and-conditions-text" for="terms-agreed-checkbox-65495f3d75d75166e5edfbfa">Terms and conditions</label>
+                    </div>
+                    <div class="st-terms-and-conditions-caption st-font-caption">I agree to receive promotional messages sent via an autodialer, and this agreement isn’t a condition of any purchase. I also agree to the <a href="https://app2.simpletexting.com/web-forms/terms/65495f3d75d75166e5edfbfa" target="_blank">Terms of Service</a> and <a href="https://app2.simpletexting.com/web-forms/privacy-policy/65495f3d75d75166e5edfbfa" target="_blank">Privacy Policy</a> 4 Msgs/Month. Msg &amp; Data rates may apply.</div>
+                    <div class="st-signupform-terms-agreed-error st-hidden">You have to agree on terms in order to proceed to the subscription.</div>
+                </div>
+                <div class="st-join-web-form-submit-button-box">
+                    <button id="subscribeNow" type="submit">Subscribe now</button>
+                    <p class="st-signupform-server-error-message st-color-red st-hidden"></p>
+                </div>
+            </div>
+            <div class="step2-confirmationText" style="display: none;">
+                <p>Just one more step! We sent a text to %%phone%% to confirm your subscription. Please reply Y or Yes to finish signing up for messages from RateStream.</p>
+            </div>
+          </form>
+        </div>
+      </body>
+    </html>
